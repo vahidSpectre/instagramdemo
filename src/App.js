@@ -26,7 +26,7 @@ function App() {
   };
   return (
     <div>
-      <Routes>
+      <Routes basename={process.env.PUBLIC_URL}>
         <Route
           path="/login"
           element={
