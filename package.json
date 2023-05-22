@@ -1,7 +1,7 @@
 {
   "name": "instagram",
   "version": "0.1.0",
-  "homepage": "https://vahidspectre.github.io",
+  "homepage": "https://vahidspectre.github.io/instagramdemo",
   "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.5",
