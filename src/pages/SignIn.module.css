@@ -1,0 +1,124 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(246, 246, 246);
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.centerCol {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  width: 30vw;
+  height: 80vh;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 3px 5px 10px rgba(129, 129, 129, 0.25);
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  backdrop-filter: blur(100px);
+}
+.mainInfoContainer {
+  width: 20vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.5s;
+  position: absolute;
+}
+.secondaryInfoContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.5s;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 10;
+  transform: translateX(25rem);
+  border: 1px solid rgb(217, 217, 217);
+  border-radius: 10px;
+}
+.avatar {
+  cursor: pointer;
+  width: 70px !important;
+  height: 70px !important;
+}
+.progress {
+  position: absolute;
+  transition: height 0.5s;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(52, 239, 52);
+}
+.mt1 {
+  margin-top: 2rem;
+}
+.mt2 {
+  margin-top: 3rem !important;
+}
+.errorText {
+  color: red;
+  font-size: small;
+}
+.btnSection {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: auto;
+  padding: 3.5rem 0;
+  background-color: inherit;
+  display: flex;
+  justify-content: space-around;
+}
+.signUpBtn {
+  background-color: rgb(46, 214, 46) !important;
+}
+.signUpBtn:hover {
+  background-color: rgb(41, 184, 41) !important;
+}
+.formSection {
+  position: relative;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: inherit;
+}
+.signUpForm {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.disflexcol {
+  display: flex;
+  flex-direction: column;
+}
+.inputImg {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  display: none;
+  overflow: hidden;
+}

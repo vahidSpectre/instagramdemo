@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: transparent;
+}
+*::-webkit-scrollbar-button {
+  display: none;
+}
+*::-webkit-scrollbar-thumb {
+  width: auto;
+  height: auto;
+  border-radius: 10px !important;
+  background-color: rgb(174, 174, 174);
+}
+@media screen and (max-width: 900px) {
+  *::-webkit-scrollbar {
+    display: none !important;
+  }
+  *::-webkit-scrollbar-thumb {
+    display: none !important;
+  }
+}

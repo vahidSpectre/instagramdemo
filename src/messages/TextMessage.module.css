@@ -1,0 +1,19 @@
+.wrapper {
+  height: fit-content;
+  width: fit-content;
+  border-radius: 1rem;
+  border: 1px solid rgb(196, 196, 196);
+  color: #ffffff;
+  background-color: #2e82ef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0.7rem;
+  margin: 0.4rem 0rem;
+  max-width: 50%;
+  word-break: break-all;
+  align-self: start;
+}
+.user {
+  align-self: end;
+}

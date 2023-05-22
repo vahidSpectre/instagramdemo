@@ -1,0 +1,115 @@
+.wrapper {
+  position: relative;
+  width: 35%;
+  height: 100%;
+  background-color: transparent;
+  overflow-y: scroll;
+}
+.wrapper::-webkit-scrollbar {
+  display: none;
+}
+.CCHeader {
+  width: 100%;
+  height: 5rem;
+  background-color: transparent;
+  background-color: rgb(250, 250, 250);
+  border-bottom: 1px solid rgb(210, 210, 210);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+.newMsgBtn {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: none;
+  outline: none;
+  background-image: url(../media/new-message.png);
+  background-size: contain;
+  cursor: pointer;
+}
+.username {
+  font-weight: bolder;
+  font-size: x-large;
+}
+.usernameSkeleton {
+  width: 5rem !important;
+  height: 1.5rem !important;
+}
+.skeletonWrapper {
+  width: 100%;
+  height: 4.5rem;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+.textSkeleton {
+  height: 2rem !important;
+  width: 80% !important;
+  margin-left: 0.5rem;
+}
+.avatarSkeleton {
+  width: 3.5rem !important;
+  height: 3.5rem !important;
+}
+.modal {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modalContainer {
+  width: 30%;
+  height: 80%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modalHeader {
+  width: 100%;
+  height: fit-content;
+  border-bottom: 1px solid rgb(210, 210, 210);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modalTitle {
+  padding: 1rem 0;
+}
+.modalInput {
+  width: 80%;
+  height: 2.5rem;
+  border-radius: 2.5rem;
+  border: 1px solid rgb(210, 210, 210);
+  margin: 1rem 0;
+  padding-left: 1rem;
+}
+.searchIcon {
+  margin-right: 0.8rem;
+}
+.modalData {
+  width: 100%;
+  height: fit-content;
+  overflow-y: scroll;
+}
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    width: 30% !important;
+    height: 100% !important;
+  }
+}
+@media screen and (max-width: 900px) {
+  .wrapper {
+    width: 30% !important;
+    height: 100% !important;
+  }
+}

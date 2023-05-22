@@ -1,0 +1,81 @@
+.explore {
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+  margin-left: 14.2rem;
+  padding: 0.5rem;
+  background-color: rgb(250, 250, 250);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+  grid-template-rows: 15rem !important;
+  grid-auto-rows: 15rem !important;
+  gap: 1rem;
+  scroll-behavior: smooth;
+}
+.postContainer {
+  background-color: transparent;
+}
+.modal {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.postModal {
+  width: 65vw;
+  height: 80vh;
+  border-radius: 5px;
+  background-color: white;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.imgContainer {
+  height: 100%;
+  max-width: 55%;
+  min-width: 50%;
+  width: fit-content;
+  background-color: black;
+}
+.modalImg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.commentsContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.postHeader {
+  width: 100%;
+  height: 4rem;
+  border-bottom: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+}
+@media screen and (max-width: 1200px) {
+  .explore {
+    margin-left: 11.2rem !important;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .explore {
+    margin-left: 4rem !important;
+  }
+}
+@media screen and (max-width: 900px) {
+  .explore {
+    margin-left: 0 !important;
+    grid-template-rows: auto !important;
+    grid-auto-rows: auto !important;
+    gap: 0.2rem;
+  }
+}

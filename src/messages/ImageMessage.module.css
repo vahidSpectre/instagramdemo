@@ -1,0 +1,27 @@
+.wrapper {
+  width: fit-content;
+  height: fit-content;
+  min-width: 8rem;
+  max-width: 50%;
+  min-height: 15rem;
+  max-height: 25rem;
+  border-radius: 5px;
+  margin: 0.6rem 0rem;
+  overflow: hidden;
+  background-color: transparent;
+  align-self: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.user {
+  align-self: end;
+}
+.dn {
+  display: none;
+}

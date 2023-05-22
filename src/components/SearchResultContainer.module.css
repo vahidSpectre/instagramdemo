@@ -1,0 +1,46 @@
+.wrapper {
+  width: 95%;
+  height: 4rem;
+  border-radius: 8px;
+  background-color: rgb(245, 245, 245);
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  padding: 0.8rem;
+}
+.username {
+  width: 90%;
+  display: block;
+  line-height: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.followBtnWrapper {
+  margin-left: auto;
+  padding: 1.1rem 0.3rem 1.1rem 0rem;
+}
+.searchResultAction {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  color: rgb(0, 157, 213);
+  border: none;
+  outline: none;
+  font-size: 0.75rem;
+  cursor: pointer;
+  padding: 0.6rem 0.8rem;
+  background-color: transparent;
+  transition: all 0.5s;
+  white-space: nowrap;
+}
+.textGrey {
+  color: rgb(87, 87, 87);
+}
+.textGrey:hover {
+  background-color: rgb(220, 220, 220) !important;
+}

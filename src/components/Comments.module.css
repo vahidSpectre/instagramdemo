@@ -1,0 +1,19 @@
+.wrapper {
+  width: 100%;
+  height: auto;
+  overflow-y: scroll;
+  flex: 1 1 auto;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spinner {
+  width: 100%;
+  height: fit-content;
+  padding: 1rem;
+}
+.loader {
+  color: rgb(148, 148, 148) !important;
+}

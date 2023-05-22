@@ -1,0 +1,62 @@
+.wrapper {
+  width: 90%;
+  height: fit-content;
+}
+.menu {
+  width: 100% !important;
+  height: fit-content;
+}
+.menuItem {
+  height: 4rem;
+  margin-bottom: 0.5rem;
+}
+.modal {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modalContainer {
+  width: 30vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  overflow-y: scroll;
+  border-radius: 5px;
+  animation: openModal 0.3s;
+}
+.modalBackBtn {
+  align-self: start;
+}
+.modalBookmarkedPostsCon {
+  width: 100%;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+  padding: 5px;
+  overflow: hidden;
+}
+.modalBookmarkedPosts {
+  aspect-ratio: 1;
+}
+.settingsActionTitle {
+  border-bottom: 2px solid rgb(0, 0, 0);
+  margin-bottom: 1rem;
+}
+.notFountText {
+  width: 70%;
+  text-align: center;
+  margin-top: 1rem;
+}
+@keyframes openModal {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}

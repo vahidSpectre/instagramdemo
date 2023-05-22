@@ -1,0 +1,56 @@
+.container {
+  width: 35%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+.userInfo {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.switchBtn {
+  color: rgb(0, 157, 213);
+  cursor: pointer;
+}
+.avatar {
+  width: fit-content;
+  height: fit-content;
+}
+.showAll {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.showAllText {
+  width: fit-content;
+  margin-top: 0.7rem;
+  margin-bottom: 0.5rem;
+  font-family: sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.suggestionText {
+  color: rgb(117, 117, 117);
+}
+.showBtn {
+  cursor: pointer;
+  color: rgb(77, 77, 77);
+  font-size: 0.6rem;
+}
+.showBtn:hover {
+  opacity: 0.6;
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    display: none;
+  }
+}

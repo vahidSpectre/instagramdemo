@@ -1,0 +1,84 @@
+[debug] [2023-05-20T10:47:44.223Z] ----------------------------------------------------------------------
+[debug] [2023-05-20T10:47:44.225Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:list
+[debug] [2023-05-20T10:47:44.225Z] CLI Version:   12.1.0
+[debug] [2023-05-20T10:47:44.226Z] Platform:      win32
+[debug] [2023-05-20T10:47:44.226Z] Node Version:  v16.16.0
+[debug] [2023-05-20T10:47:44.227Z] Time:          Sat May 20 2023 15:17:44 GMT+0430 (Iran Daylight Time)
+[debug] [2023-05-20T10:47:44.227Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-20T10:47:44.230Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-05-20T10:47:44.254Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-20T10:47:44.254Z] > authorizing via signed-in user (vahid.royale.1378@gmail.com)
+[debug] [2023-05-20T10:47:44.258Z] > refreshing access token with scopes: []
+[debug] [2023-05-20T10:47:44.260Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-20T10:47:44.260Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-05-20T10:48:00.256Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2023-05-20T10:48:01.197Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at invalidCredentialError (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:144:12)
+    at refreshTokens (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:508:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.getAccessToken (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:149:23)
+    at async Client.addAuthHeader (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:140:21)
+    at async Client.request (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:34)
+    at async getProjectPage (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:238:17)
+    at async getFirebaseProjectPage (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:255:23)
+    at async listFirebaseProjects (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:286:29)
+    at async Command.actionFn (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\projects-list.js:51:20)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2023-05-20T10:48:58.448Z] ----------------------------------------------------------------------
+[debug] [2023-05-20T10:48:58.450Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-20T10:48:58.450Z] CLI Version:   12.1.0
+[debug] [2023-05-20T10:48:58.451Z] Platform:      win32
+[debug] [2023-05-20T10:48:58.451Z] Node Version:  v16.16.0
+[debug] [2023-05-20T10:48:58.452Z] Time:          Sat May 20 2023 15:18:58 GMT+0430 (Iran Daylight Time)
+[debug] [2023-05-20T10:48:58.452Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-20T10:48:58.455Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-05-20T10:48:58.476Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-20T10:48:58.477Z] > authorizing via signed-in user (vahid.royale.1378@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\vahid\Desktop\instagram\instagram
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-20T10:49:11.331Z] > refreshing access token with scopes: []
+[debug] [2023-05-20T10:49:11.333Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-20T10:49:11.333Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-05-20T10:49:19.537Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-05-20T10:49:27.338Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2023-05-20T10:49:28.120Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at invalidCredentialError (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:144:12)
+    at refreshTokens (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:508:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.getAccessToken (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:149:23)
+    at async Client.addAuthHeader (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:140:21)
+    at async Client.request (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:34)
+    at async getProjectPage (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:238:17)
+    at async getFirebaseProjectPage (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:255:23)
+    at async selectProjectInteractively (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:94:41)
+    at async doSetup (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:88:27)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.

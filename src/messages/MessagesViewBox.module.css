@@ -1,0 +1,11 @@
+.wrapper {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  transition: all 0.5s;
+}
