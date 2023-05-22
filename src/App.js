@@ -19,16 +19,16 @@ function App() {
   const { currentUser } = useContext(AuthContext);
 
   const RequireAuth = ({ children }) => {
-    return currentUser ? children : <Navigate to={'/instagramdemo/login'} />;
+    return currentUser ? children : <Navigate to={'/login'} />;
   };
   const AuthExists = ({ children }) => {
-    return currentUser ? <Navigate to={'/instagramdemo/'} /> : children;
+    return currentUser ? <Navigate to={'/'} /> : children;
   };
   return (
     <div>
       <Routes>
         <Route
-          path="/instagramdemo/login"
+          path="/login"
           element={
             <AuthExists>
               <Login />
@@ -36,7 +36,7 @@ function App() {
           }
         />
         <Route
-          path="/instagramdemo/signup"
+          path="/signup"
           element={
             <AuthExists>
               <SignIn />
@@ -56,7 +56,7 @@ function App() {
         />
         <Route
           index
-          path="/instagramdemo/"
+          path="/"
           element={
             <RequireAuth>
               <ActionBar>
