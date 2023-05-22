@@ -82,3 +82,55 @@ For CI servers and headless environments, generate a new token with firebase log
     at async doSetup (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:88:27)
 [error] 
 [error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2023-05-22T13:07:16.137Z] ----------------------------------------------------------------------
+[debug] [2023-05-22T13:07:16.139Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-22T13:07:16.140Z] CLI Version:   12.1.0
+[debug] [2023-05-22T13:07:16.140Z] Platform:      win32
+[debug] [2023-05-22T13:07:16.140Z] Node Version:  v16.16.0
+[debug] [2023-05-22T13:07:16.141Z] Time:          Mon May 22 2023 17:37:16 GMT+0430 (Iran Daylight Time)
+[debug] [2023-05-22T13:07:16.141Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-22T13:07:16.145Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-05-22T13:07:16.167Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-22T13:07:16.167Z] > authorizing via signed-in user (vahid.royale.1378@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\vahid\Desktop\instagram\instagram
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-22T13:07:23.953Z] > refreshing access token with scopes: []
+[debug] [2023-05-22T13:07:23.954Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-05-22T13:07:23.955Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-05-22T13:07:37.339Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-05-22T13:07:40.832Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2023-05-22T13:07:41.704Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at invalidCredentialError (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:144:12)
+    at refreshTokens (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:508:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.getAccessToken (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:149:23)
+    at async Client.addAuthHeader (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:140:21)
+    at async Client.request (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:34)
+    at async getProjectPage (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:238:17)
+    at async getFirebaseProjectPage (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:255:23)
+    at async selectProjectInteractively (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:94:41)
+    at async doSetup (C:\Users\vahid\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:88:27)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
