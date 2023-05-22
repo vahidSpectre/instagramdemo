@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/instagramdemo/static/css/main.c2096e41.css",
-    "main.js": "/instagramdemo/static/js/main.f3f5616b.js",
+    "main.js": "/instagramdemo/static/js/main.47ed933b.js",
     "static/js/787.0fb9b3d3.chunk.js": "/instagramdemo/static/js/787.0fb9b3d3.chunk.js",
     "static/media/Project_Name.mp4": "/instagramdemo/static/media/Project_Name.c871704103be6a6b049e.mp4",
     "static/media/pngwing.com.png": "/instagramdemo/static/media/pngwing.com.4b5db7ba39c7e588fc6b.png",
@@ -14,11 +14,11 @@
     "static/media/instagram-logo=1.svg": "/instagramdemo/static/media/instagram-logo=1.108fc0e184d94f3a61d2db46ac3c5a49.svg",
     "index.html": "/instagramdemo/index.html",
     "main.c2096e41.css.map": "/instagramdemo/static/css/main.c2096e41.css.map",
-    "main.f3f5616b.js.map": "/instagramdemo/static/js/main.f3f5616b.js.map",
+    "main.47ed933b.js.map": "/instagramdemo/static/js/main.47ed933b.js.map",
     "787.0fb9b3d3.chunk.js.map": "/instagramdemo/static/js/787.0fb9b3d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c2096e41.css",
-    "static/js/main.f3f5616b.js"
+    "static/js/main.47ed933b.js"
   ]
 }
