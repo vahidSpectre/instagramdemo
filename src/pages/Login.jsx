@@ -35,7 +35,7 @@ function Login() {
     }
   }, [password]);
   const handleNavigateToSignin = () => {
-    navigate('/signup');
+    navigate('/instagramdemo/signup');
   };
 
   return (
@@ -112,7 +112,7 @@ function Login() {
           </h6>
         </form>
       </div>
-      {goToHome && <Navigate to="/" />}
+      {goToHome && <Navigate to="/instagramdemo/" />}
     </div>
   );
 }
